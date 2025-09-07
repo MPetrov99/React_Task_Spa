@@ -9,15 +9,11 @@ This project is an interactive quiz application built with React (via Vite) and 
 Features
 Quiz Flow
 
-5 multiple-choice questions about hair type, care habits, and preferences.
-
-Options are displayed in a styled card layout with lettered prefixes (a., b., c., etc.).
-
-Progress is shown via a circular progress bar starting at the 12 o’clock position.
-
-Supports going back/forward between questions.
-
-Answers are saved in localStorage (persisted across sessions).
+- 5 multiple-choice questions about hair type, care habits, and preferences.
+- Options are displayed in a styled card layout with lettered prefixes (a., b., c., etc.).
+- Progress is shown via a circular progress bar starting at the 12 o’clock position.
+- Supports going back/forward between questions.
+- Answers are saved in localStorage (persisted across sessions).
 
 Results Page
 
@@ -87,19 +83,6 @@ To build for production:
 
 npm run build
 
-Project Structure
-my-spa-quiz/
-│
-├── public/                # Static assets
-├── src/
-│   ├── assets/            # Images (backgrounds, icons)
-│   ├── App.jsx            # Main app + routing
-│   ├── index.css          # Global styles
-│   ├── main.jsx           # React entry point
-│
-├── index.html             # HTML template
-├── package.json
-└── vite.config.js
 
 Possible Improvements
 
