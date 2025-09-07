@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import {
-  HashRouter,
+  BrowserRouter,
   Routes,
   Route,
   useNavigate,
@@ -402,7 +402,7 @@ function ResultsPage() {
 // ---------- App Shell & Router ----------
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="app">
         <header className="topbar">
           <Link to="/" className="brand">
@@ -418,6 +418,6 @@ export default function App() {
         </main>
         <footer className="site-footer">© {new Date().getFullYear()} Spa Routine</footer>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
