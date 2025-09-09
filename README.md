@@ -1,5 +1,7 @@
 Spa Routine Quiz – React + Vite Project
 
+Public preview link - [here](https://react-task-spa.vercel.app?_vercel_share=mn6UhJI55pvYXViJcaH2ZXxhN9DAnOXK)
+
 Project Overview
 
 This project is an interactive quiz application built with React (via Vite) and CSS. It guides users through a series of self-care questions and recommends products based on their answers. The app demonstrates modern React patterns, client-side routing with React Router, dynamic UI updates, and a clean, responsive design.
