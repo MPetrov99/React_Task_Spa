@@ -8,6 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "build:gh": "VITE_TARGET=gh vite build",
   },
   "dependencies": {
     "react": "^19.1.1",
