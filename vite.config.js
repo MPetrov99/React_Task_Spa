@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
-// https://vitejs.dev/config/
+const isGh = process.env.VITE_TARGET === 'gh' 
+
 export default defineConfig({
   plugins: [react()],
-  base: '/React_Task_Spa.MPetrov99.github.io/',
+  base: isGh ? '/',
 })
